@@ -1,1 +1,9 @@
-Added basic for and while loop examples
+#for loop 
+for i in range(1,6):
+    print(i)
+
+#while loop
+n = 1
+while n<6:
+    print(n)
+    n+=1
