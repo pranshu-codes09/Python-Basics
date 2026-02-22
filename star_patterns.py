@@ -21,7 +21,7 @@ for i in range (1,6):
 
 # For diamond pattern
 n = 4
-print(" "*(n-i)+"*")
+print(" "*(n)+"*")
 
 #For upper
 for i in range (1,5):
@@ -30,7 +30,7 @@ for i in range (1,5):
 #For lower
 for i in range (3,0,-1):
     print(" "*(n-i)+"*"+" "*(2*i-1)+"*")
-print(" "*(n-i)+"*")
+print(" "*(n)+"*")
 
 
 
