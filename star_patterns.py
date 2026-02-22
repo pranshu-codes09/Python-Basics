@@ -16,4 +16,21 @@ for i in range (1,6):
     if i == 1 or i == n:
         print("*"*n)
     else:
-        print("*"+" "*(n-2)+"*"). 
+        print("*"+" "*(n-2)+"*")
+
+
+# For diamond pattern
+n = 4
+print(" "*(n-i)+"*")
+
+#For upper
+for i in range (1,5):
+    print(" "*(n-i)+"*"+" "*(2*i-1)+"*")
+
+#For lower
+for i in range (3,0,-1):
+    print(" "*(n-i)+"*"+" "*(2*i-1)+"*")
+print(" "*(n-i)+"*")
+
+
+
